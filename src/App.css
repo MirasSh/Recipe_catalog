@@ -110,7 +110,9 @@ ol {
 	margin: 0 auto;
 }
 
-.set-bg {
+.set-bg, .set-bg-1,.set-bg-2,.set-bg-3,.set-bg-4,.set-bg-5, .set-bg-6,.set-bg-7,.set-bg-8,.set-bg-9,.set-bg-10
+,.set-bg-11,.set-bg-12,.set-bg-13,.set-bg-14,.set-bg-15,.set-bg-16,.set-bg-17,.set-bg-18,.set-bg-19,.set-bg-20
+,.set-bg-21,.set-bg-22,.set-bg-23,.set-bg-24,.set-bg-25{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
