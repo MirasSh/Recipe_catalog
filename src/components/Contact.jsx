@@ -1,5 +1,4 @@
 import '../App.css'
-import { Link, NavLink, useNavigate, } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -19,10 +18,10 @@ const About = () => {
                                 <div className="col-lg-8 col-md-10 order-md-2 order-3">
                                     <nav className="header__menu">
                                         <ul>
-                                            <li><a href="/">Home</a></li>
-                                            <li><a href="Recipes">Recipes</a></li>
-                                            <li><a href="About">About</a></li>
-                                            <li className="active"><a href="Contact">Contact</a></li>
+                                            <li><a href="/">Главная</a></li>
+                                            <li><a href="Recipes">Рецепты</a></li>
+                                            <li><a href="About">Обо мне</a></li>
+                                            <li className="active"><a href="Contact">Контакты</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -46,62 +45,49 @@ const About = () => {
                         </div>
                     </div>
                 </header>
-                <section className="about spad">
+
+                <section className="contact spad">
                     <div className="container">
-                        <div className="about__text">
+                        <div className="contact__text">
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="breadcrumb__text">
-                                        <h2>About me</h2>
-                                        <div className="breadcrumb__option">
-                                            <a href="#">Home</a>
-                                            <span>About</span>
-                                        </div>
+                                        <h2>Контакты</h2>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="about__pic__item__large">
-                                        <img src="about/about-1.jpg" alt="" />
-                                    </div>
-                                    <div className="about__pic">
-                                        <div className="about__pic__item">
-                                            <img src="about/about-2.jpg" alt="" />
-                                        </div>
-                                        <div className="about__pic__item">
-                                            <img src="about/about-3.jpg" alt="" />
-                                        </div>
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="contact__map">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.74000771341!2d76.92945111226635!3d43.256870471003246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eba50dc1d0d%3A0xd4c161a3ca935ec6!2z0L_RgC3Rgi4g0KHQtdC50YTRg9C70LvQuNC90LAgNTIxLCDQkNC70LzQsNGC0YsgMDUwMDAwLCDQmtCw0LfQsNGF0YHRgtCw0L0!5e0!3m2!1sru!2skg!4v1696668621697!5m2!1sru!2skg%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade%22"
+                                            height="350"
+                                            style={{ border: '0' }}
+                                            allowFullScreen=""
+                                            aria-hidden="false"
+                                            tabIndex="0"
+                                        ></iframe>
+
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
-                                    <div className="about__right__text">
-                                        <h2>Hello every one !!!</h2>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                            nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit amet, consectetur
-                                            adipisicing elit, incididunt ut labore et dolore magna aliqua accusantium doloremque
-                                            laudantium.
-                                        </p>
-                                        <ul>
-                                            <li>Class aptent taciti sociosqu ad litora torquent per conubia nostra</li>
-                                            <li>Inceptos himenaeos mauris.Integer gravida tincidunt accumsan.</li>
-                                            <li>Vestibulum nulla mauris, condimentum id felis ac, volutpat volutpat mi.</li>
-                                            <li>In vitae tempor velit of the impenetrable foliage.</li>
-                                        </ul>
-                                        <p>
-                                            Vestibulum commodo nulla eu augue tincidunt rutrum. Suspendisse interdum lacus in ligula
-                                            finibus luctus. Vivamus mollis libero vel orci finibus, sit amet malesuada lectus aliquam. In
-                                            auctor viverra eros. Maecenas elit mi, consectetur nec, sollicitudin sed arcu. Curabitur tempor
-                                            tempor pharetra ridiculus mus porta tincidunt, purus enim laoreet.
-                                        </p>
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="contact__form">
+                                        <div className="contact__form__title">
+
+                                            <h2>Мой контакты </h2>
+                                            <p>
+                                                <a href=""><h5>+7 777 777 77 77 <span>Аружан</span></h5></a>
+                                                <a href=""><h4>Arujan@gmail.com</h4></a>
+                                                <a href=""><h4>Arujan@mail.ru</h4></a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <footer className="footer">
                     <div className="container-fluid">
                         <div className="footer__instagram">
@@ -135,9 +121,7 @@ const About = () => {
                                         <a href="#"><img src="logo.png" alt="" /></a>
                                     </div>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                                        commodo viverra maecenas accumsan lacus vel facilisis.
+                                        Соблюдение принципов здорового питания под силу каждому. Прочитайте приведенные ниже правила и возьмите их за основу при планировании своего питания — и первый шаг к здоровому питанию и образу жизни будет сделан.
                                     </p>
                                 </div>
                             </div>

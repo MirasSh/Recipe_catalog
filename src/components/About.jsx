@@ -1,5 +1,4 @@
 import '../App.css'
-import { Link, NavLink, useNavigate, } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -19,10 +18,10 @@ const About = () => {
                                 <div className="col-lg-8 col-md-10 order-md-2 order-3">
                                     <nav className="header__menu">
                                         <ul>
-                                            <li><a href="/">Home</a></li>
-                                            <li><a href="Recipes">Recipes</a></li>
-                                            <li className="active"><a href="About">About</a></li>
-                                            <li><a href="Contact">Contact</a></li>
+                                            <li><a href="/">Главная</a></li>
+                                            <li><a href="Recipes">Рецепты</a></li>
+                                            <li className="active"><a href="About">Обо мне</a></li>
+                                            <li><a href="Contact">Контакты</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -52,11 +51,7 @@ const About = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="breadcrumb__text">
-                                        <h2>About me</h2>
-                                        <div className="breadcrumb__option">
-                                            <a href="#">Home</a>
-                                            <span>About</span>
-                                        </div>
+                                        <h2>Обо мне</h2>                                        
                                     </div>
                                 </div>
                             </div>
@@ -76,25 +71,20 @@ const About = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="about__right__text">
-                                        <h2>Hello every one !!!</h2>
+                                        <h2>Всем привет!!!</h2>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                            nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit amet, consectetur
-                                            adipisicing elit, incididunt ut labore et dolore magna aliqua accusantium doloremque
-                                            laudantium.
+                                        Изначально, я искала подобный сайт, чтобы научиться готовить. Спустя некоторое время, я поняла, что нет такой платформы, которая бы меня устроила. В итоге, я пришла к мнению, что создать свой продукт, где каждый может найти нужный ему рецепт.
                                         </p>
-                                        <ul>
-                                            <li>Class aptent taciti sociosqu ad litora torquent per conubia nostra</li>
-                                            <li>Inceptos himenaeos mauris.Integer gravida tincidunt accumsan.</li>
-                                            <li>Vestibulum nulla mauris, condimentum id felis ac, volutpat volutpat mi.</li>
-                                            <li>In vitae tempor velit of the impenetrable foliage.</li>
+                                        <ul><p>Вот почему я создала данное веб приложение:</p>
+                                            <li>Удобное</li>
+                                            <li>Интересное</li>
+                                            <li>Практичная</li>
+                                            <li>Крос браузерная</li>
                                         </ul>
                                         <p>
-                                            Vestibulum commodo nulla eu augue tincidunt rutrum. Suspendisse interdum lacus in ligula
-                                            finibus luctus. Vivamus mollis libero vel orci finibus, sit amet malesuada lectus aliquam. In
-                                            auctor viverra eros. Maecenas elit mi, consectetur nec, sollicitudin sed arcu. Curabitur tempor
-                                            tempor pharetra ridiculus mus porta tincidunt, purus enim laoreet.
+                                        Правильное питание способствует сохранению здоровья, 
+                                        поддержанию хорошей физической и умственной работоспособности, 
+                                        высокой сопротивляемости организма к воздействию вредных факторов окружающей среды и активному долголетию.
                                         </p>
                                     </div>
                                 </div>
@@ -134,10 +124,7 @@ const About = () => {
                                     <div className="footer__logo">
                                         <a href="#"><img src="logo.png" alt="" /></a>
                                     </div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                                        commodo viverra maecenas accumsan lacus vel facilisis.
+                                    <p>Соблюдение принципов здорового питания под силу каждому. Прочитайте приведенные ниже правила и возьмите их за основу при планировании своего питания — и первый шаг к здоровому питанию и образу жизни будет сделан.
                                     </p>
                                 </div>
                             </div>

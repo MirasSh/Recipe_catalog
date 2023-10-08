@@ -19,12 +19,12 @@ function Home() {
                 <div className="col-lg-8 col-md-10 order-md-2 order-3">
                   <nav className="header__menu">
                     <ul>
-                      <li className="active"><a href="/">Home</a></li>
-                      <li><a href="Recipes">Recipes</a></li>
-                      <li><a href="About">About</a></li>
-                      <li><a href="Contact">Contact</a></li>
+                      <li className="active"><a href="/">Главная</a></li>
+                      <li><a href="Recipes">Рецепты</a></li>
+                      <li><a href="About">Обо мне</a></li>
+                      <li><a href="Contact">Контакты</a></li>
                     </ul>
-                  </nav>                  
+                  </nav>
                 </div>
                 <div className="col-lg-2 col-md-1 col-6 order-md-3 order-2">
                   <div className="header__search">
@@ -56,15 +56,10 @@ function Home() {
                       <div className="hero__inside__item__text">
                         <div className="hero__inside__item--text">
                           <ul className="label">
-                            <li>Vegan</li>
-                            <li>Desserts</li>
+                            <li>Вегитарианские</li>
+                            <li>Дисерты</li>
                           </ul>
-                          <h4>Vegan White Peach Mug Cobbler With CardamomVegan<br /> White Peach Mug Cobbler With Cardamom</h4>
-                          <ul className="widget">
-                            <li>by <span>Admin</span></li>
-                            <li>3 min read</li>
-                            <li>20 Comment</li>
-                          </ul>
+                          <h4>еганский коблер из белого персика в кружке с кардамоном<br /> Коблер из белого персика в кружке с кардамоном</h4>
                         </div>
                       </div>
                     </div>
@@ -74,10 +69,10 @@ function Home() {
                       <div className="hero__inside__item__text">
                         <div className="hero__inside__item--text">
                           <ul className="label">
-                            <li>Vegan</li>
-                            <li>Desserts</li>
+                            <li>Вегитарианские</li>
+                            <li>Дисерты</li>
                           </ul>
-                          <h5>How to Make a Milkshake With Any <br />Ice Cream, Any Toppings...</h5>
+                          <h5>Молочный коктейль  <br />Любимые начинки</h5>
                         </div>
                       </div>
                     </div>
@@ -85,10 +80,10 @@ function Home() {
                       <div className="hero__inside__item__text">
                         <div className="hero__inside__item--text">
                           <ul className="label">
-                            <li>Vegan</li>
-                            <li>Desserts</li>
+                            <li>Вегитарианские</li>
+                            <li>Дисерты</li>
                           </ul>
-                          <h5>Vintage Copper Preserve Pan with <br />Brass Handles, Mid 19th Century</h5>
+                          <h5>Молочные коктели</h5>
                         </div>
                       </div>
                     </div>
@@ -98,10 +93,10 @@ function Home() {
                       <div className="hero__inside__item__text">
                         <div className="hero__inside__item--text">
                           <ul className="label">
-                            <li>Vegan</li>
-                            <li>Desserts</li>
+                            <li>Вегитарианские</li>
+                            <li>Дисерты</li>
                           </ul>
-                          <h5>Marinated Lentil Salad with Zucchini and Tomatoes</h5>
+                          <h5>Салат из маринованной чечевицы с цуккини и помидорами</h5>
                         </div>
                       </div>
                     </div>
@@ -139,45 +134,21 @@ function Home() {
                     ></div>
                     <div className="categories__post__item__text">
                       <ul className="post__label--large">
-                        <li>Vegan</li>
-                        <li>Desserts</li>
+                        <li>Вегитарианские</li>
+                        <li>Дисерты</li>
                       </ul>
                       <h3>
                         <a href="#">
-                          The Absolute Best Way to Cook Steak Perfectly, According to
-                          Wayyy Too Many Tests
+                          Абсолютно лучший способ идеального приготовленного стейка, согласно большому количеству тестов
                         </a>
                       </h3>
-                      <ul className="post__widget">
-                        <li>
-                          by <span>Admin</span>
-                        </li>
-                        <li>3 min read</li>
-                        <li>20 Comment</li>
-                      </ul>
                       <p>
-                        Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur excepteur sint ...
+                        Хороший стейк может стать настоящим удовольствием для гурманов. Однако, чтобы достичь идеальной степени прожарки и незабываемого вкуса,
+                        важно придерживаться определенных правил при приготовлении.
                       </p>
-                      <a href="#" className="primary-btn">
-                        Read more
+                      <a href="Recipes" className="primary-btn">
+                        Подробнее
                       </a>
-                      <div className="post__social">
-                        <span>Share</span>
-                        <a href="#">
-                          <i className="fa fa-facebook"></i> <span>82</span>
-                        </a>
-                        <a href="#">
-                          <i className="fa fa-twitter"></i> <span>24</span>
-                        </a>
-                        <a href="#">
-                          <i className="fa fa-envelope-o"></i> <span>08</span>
-                        </a>
-                      </div>
                     </div>
                   </div>
                   <div className="row">
@@ -191,20 +162,14 @@ function Home() {
                           <span className="post__label">Recipe</span>
                           <h3>
                             <a href="#">
-                              The Best Weeknight Baked Potatoes, 3 Creative Ways
-                            </a>
+                              Лучший запеченный картофель в будний день, 3 креативных способа                            </a>
                           </h3>
                           <ul className="post__widget">
                             <li>
-                              by <span>Admin</span>
                             </li>
-                            <li>3 min read</li>
-                            <li>20 Comment</li>
                           </ul>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                            suspendisse ultrices gravida...
+                            Завтрак должен быть достаточно обильным, чтобы зарядиться энергией на весь день. Ночью организм потребляет запасы углеводов, которые накопились в печени, и утром их следует восстановить.
                           </p>
                         </div>
                       </div>
@@ -215,25 +180,20 @@ function Home() {
                         ></div>
                         <div className="categories__post__item__text">
                           <ul className="post__label--large">
-                            <li>Vegan</li>
-                            <li>Desserts</li>
+                            <li>Вегитарианские</li>
+                            <li>Дисерты</li>
                           </ul>
                           <h3>
                             <a href="#">
-                              The Best Grass Stain Remover Is Already In Your Pantry
+                              Вода необходима для транспортировки питательных веществ и их остатков
                             </a>
                           </h3>
                           <ul className="post__widget">
                             <li>
-                              by <span>Admin</span>
                             </li>
-                            <li>3 min read</li>
-                            <li>20 Comment</li>
                           </ul>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                            suspendisse ultrices gravida...
+                            Завтрак должен быть достаточно обильным, чтобы зарядиться энергией на весь день. Ночью организм потребляет запасы углеводов, которые накопились в печени, и утром их следует восстановить.
                           </p>
                         </div>
                       </div>
@@ -243,26 +203,14 @@ function Home() {
                       >
                         <div className="categories__post__item__text">
                           <ul className="post__label--large">
-                            <li>Vegan</li>
-                            <li>Desserts</li>
+                            <li>Вегитарианские</li>
+                            <li>Дисерты</li>
                           </ul>
                           <h3>
                             <a href="#">
-                              This Summer Snacking Cake Is theSweetest Excuse to...
+                              Летний пирог для перекуса
                             </a>
                           </h3>
-                          <div className="post__social">
-                            <span>Share</span>
-                            <a href="#">
-                              <i className="fa fa-facebook"></i> <span>82</span>
-                            </a>
-                            <a href="#">
-                              <i className="fa fa-twitter"></i> <span>24</span>
-                            </a>
-                            <a href="#">
-                              <i className="fa fa-envelope-o"></i> <span>08</span>
-                            </a>
-                          </div>
                         </div>
                       </div>
                       <div className="categories__post__item">
@@ -274,21 +222,15 @@ function Home() {
                           <span className="post__label">Smoothie</span>
                           <h3>
                             <a href="#">
-                              This 2-Ingredient Spread Makes Any Egg Sandwich So Much
-                              Better
+                              Делаем крутой сэндвич
                             </a>
                           </h3>
                           <ul className="post__widget">
                             <li>
-                              by <span>Admin</span>
                             </li>
-                            <li>3 min read</li>
-                            <li>20 Comment</li>
                           </ul>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                            suspendisse ultrices gravida...
+                            Завтрак должен быть достаточно обильным, чтобы зарядиться энергией на весь день. Ночью организм потребляет запасы углеводов, которые накопились в печени, и утром их следует восстановить.
                           </p>
                         </div>
                       </div>
@@ -303,31 +245,24 @@ function Home() {
                           <span className="post__label">Dinner</span>
                           <h3>
                             <a href="#">
-                              17 Perfect Gifts for Your Vegan Friend Because Sometimes...
+                              Чтобы в вашем меню было достаточно клетчатки, необходимой для нормального пищеварения, нужно есть как зерновые продукты, так и фрукты, овощи и ягоды.
                             </a>
                           </h3>
                           <ul className="post__widget">
                             <li>
-                              by <span>Admin</span>
                             </li>
-                            <li>3 min read</li>
-                            <li>20 Comment</li>
                           </ul>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                            suspendisse ultrices gravida...
+                            Завтрак должен быть достаточно обильным, чтобы зарядиться энергией на весь день. Ночью организм потребляет запасы углеводов, которые накопились в печени, и утром их следует восстановить.
                           </p>
                         </div>
                       </div>
                       <div className="categories__post__item__small">
                         <img src="categories/categories-post/quote.png" alt="" />
                         <p>
-                          Lorem ipsum dolor amet, consectetur adipiscing elit, sed do
-                          eiusmod tempor incididunt labore et dolore magna aliqua
-                          gravida.
+                          Война войной, а обед — по расписанию.
                         </p>
-                        <div className="posted__by">Elena T.Jaivy</div>
+                        <div className="posted__by">Очень известный человек</div>
                       </div>
                       <div className="categories__post__item">
                         <div
@@ -335,23 +270,18 @@ function Home() {
                           data-setbg="categories/categories-post/cp-5.jpg"
                         ></div>
                         <div className="categories__post__item__text">
-                          <span className="post__label">Drinks</span>
+                          <span className="post__label">Коктели</span>
                           <h3>
                             <a href="#">
-                              A 5-Minute Peach Mug Cobbler That Just So Happens to...
+                              Обмен веществ в человеческом организме не нуждается в алкоголе
                             </a>
                           </h3>
                           <ul className="post__widget">
                             <li>
-                              by <span>Admin</span>
                             </li>
-                            <li>3 min read</li>
-                            <li>20 Comment</li>
                           </ul>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                            suspendisse ultrices gravida...
+                            Завтрак должен быть достаточно обильным, чтобы зарядиться энергией на весь день. Ночью организм потребляет запасы углеводов, которые накопились в печени, и утром их следует восстановить.
                           </p>
                         </div>
                       </div>
@@ -362,25 +292,20 @@ function Home() {
                         ></div>
                         <div className="categories__post__item__text">
                           <ul className="post__label--large">
-                            <li>Vegan</li>
-                            <li>Desserts</li>
+                            <li>Вегитарианские</li>
+                            <li>Дисерты</li>
                           </ul>
                           <h3>
                             <a href="#">
-                              Fresh Herb Polenta with Parsnip Chips and Maple Butter
+                              Полента из свежих трав с чипсами из пастернака и кленовым маслом
                             </a>
                           </h3>
                           <ul className="post__widget">
                             <li>
-                              by <span>Admin</span>
                             </li>
-                            <li>3 min read</li>
-                            <li>20 Comment</li>
                           </ul>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                            suspendisse ultrices gravida...
+                            Завтрак должен быть достаточно обильным, чтобы зарядиться энергией на весь день. Ночью организм потребляет запасы углеводов, которые накопились в печени, и утром их следует восстановить.
                           </p>
                         </div>
                       </div>
@@ -391,136 +316,75 @@ function Home() {
                   <div className="sidebar__item">
                     <div className="sidebar__about__item">
                       <div className="sidebar__item__title">
-                        <h6>About me</h6>
+                        <h6> Обо мне</h6>
                       </div>
                       <img src="sidebar/sidebar-about.jpg" alt="" />
                       <h6>
-                        Hi every one! I,m <span>Lena Mollein.</span>
+                        Всем привет!!! <span>Меня зовут Аружан</span>
                       </h6>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Это моя веб проргамма сделанная на React. Я рада сделать этот проект
                       </p>
-                      <a href="#" className="primary-btn">
-                        Read more
+                      <a href="About" className="primary-btn">
+                        Смотреть больше
                       </a>
                     </div>
                     <div className="sidebar__feature__item">
                       <div className="sidebar__item__title">
-                        <h6>Feature Posts</h6>
+                        <h6>Рецепты</h6>
                       </div>
                       <div
                         className="sidebar__feature__item__large set-bg-17"
                         data-setbg="sidebar/feature-post.jpg"
                       >
                         <div className="sidebar__feature__item__large--text">
-                          <span>Dinner</span>
+                          <span>Завтрак</span>
                           <h5>
                             <a href="#">
-                              This Japanese Way of Making Iced Coffee Is a Game...
+                              Этот японский способ приготовления кофе со льдом
                             </a>
                           </h5>
                         </div>
                       </div>
-                      <div className="sidebar__feature__item__list">
-                        <div className="sidebar__feature__item__list__single">
-                          <div className="post__text">
-                            <span>Dinner</span>
-                            <h5>
-                              <a href="#">Grilled Potato and Green Bean Salad</a>
-                            </h5>
-                          </div>
-                        </div>
-                        <div className="sidebar__feature__item__list__single">
-                          <div className="post__meta">
-                            <h4>05</h4>
-                            <span>Aug</span>
-                          </div>
-                          <div className="post__text">
-                            <span>Smoothie</span>
-                            <h5>
-                              <a href="#">
-                                The $8 French Rosé I Buy in Bulk Every Summer
-                              </a>
-                            </h5>
-                          </div>
-                        </div>
-                        <div className="sidebar__feature__item__list__single">
-                          <div className="post__meta">
-                            <h4>26</h4>
-                            <span>jul</span>
-                          </div>
-                          <div className="post__text">
-                            <span>Desert</span>
-                            <h5>
-                              <a href="#">
-                                Ina Garten s Skillet-Roasted Lemon Chicken
-                              </a>
-                            </h5>
-                          </div>
-                        </div>
-                        <div className="sidebar__feature__item__list__single">
-                          <div className="post__meta">
-                            <h4>16</h4>
-                            <span>jul</span>
-                          </div>
-                          <div className="post__text">
-                            <span>Vegan</span>
-                            <h5>
-                              <a href="#">
-                                The Best Weeknight Baked Potatoes, 3 Creative Ways
-                              </a>
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="sidebar__item__banner">
-                      <img src="sidebar/banner.jpg" alt="" />
                     </div>
                     <div className="sidebar__item__categories">
                       <div className="sidebar__item__title">
-                        <h6>Categories</h6>
+                        <h6>Категорий</h6>
                       </div>
                       <ul>
                         <li>
                           <a href="#">
-                            Recipes <span>128</span>
+                            Рецепты <span>128</span>
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            Dinner <span>32</span>
+                            Завтраки <span>32</span>
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            Dessert <span>86</span>
+                            Десерты <span>86</span>
                           </a>
                         </li>
                         <li className="p-left">
                           <a href="#">
-                            Smothie <span>25</span>
+                            Смузи <span>25</span>
                           </a>
                         </li>
                         <li className="p-left">
                           <a href="#">
-                            Drinks <span>36</span>
+                            Напитки <span>36</span>
                           </a>
                         </li>
                         <li className="p-left">
                           <a href="#">
-                            Cakes <span>15</span>
+                            Кофе <span>15</span>
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            Vegan <span>63</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            Weightloss <span>27</span>
+                            Вегетариански <span>63</span>
                           </a>
                         </li>
                       </ul>
@@ -528,35 +392,28 @@ function Home() {
                     <div className="sidebar__about__item">
                       <img src="sidebar/sidebar-about.jpg" alt="" />
                       <h6>
-                        Hi every one! I,m <span>Lena Mollein.</span>
+                        Готовим вкусно
                       </h6>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Распланируйте свой день таким образом, чтобы было время для приема пищи как минимум три раза в день, по возможности регулярно, чтобы избежать переедания, вызванного длительным перерывом между приемами пищи
                       </p>
                       <a href="#" className="primary-btn">
-                        Read more
+                        Подробнее
                       </a>
                     </div>
                     <div className="categories__post__item">
                       <div className="categories__post__item__text">
                         <h3>
                           <a href="#">
-                            This 2-Ingredient Spread Makes Any Egg Sandwich So Much
-                            Better
+                            Делаем крутой сэндвич
                           </a>
                         </h3>
                         <ul className="post__widget">
                           <li>
-                            by <span>Admin</span>
                           </li>
-                          <li>3 min read</li>
-                          <li>20 Comment</li>
                         </ul>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                          do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                          suspendisse ultrices gravida...
+                          Учитесь сами готовить пищу и делайте это медленно и с удовольствием, а еще лучше – в компании. Как правило, люди, которые готовят сами, едят более здоровую пищу.
                         </p>
                       </div>
                       <div
@@ -603,9 +460,7 @@ function Home() {
                     <a href="#"><img src="logo.png" alt="" /></a>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                    commodo viverra maecenas accumsan lacus vel facilisis.
+                    Наш организм обязательно нуждается в жирах, но в незначительных количествах.
                   </p>
                 </div>
               </div>
